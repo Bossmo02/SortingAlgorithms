@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sorts">
+      <UniqueIdentifier>{78067529-aeb1-489d-a37b-9ea73702fb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random">
+      <UniqueIdentifier>{250115dc-dfb8-408f-b025-bbe88f66ef51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{8d695aea-7aa3-4e39-a137-181cae3f9860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{887892ec-5358-4a1b-a269-f3b92d9f10db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorts\SortVisualizer">
+      <UniqueIdentifier>{225ed5b5-6324-43eb-ba78-d2b699973564}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Random</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Random</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <Filter>Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapSort.h">
+      <Filter>Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxHeap.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHeap.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SortVisualizer.h">
+      <Filter>Sorts\SortVisualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="ShakerSort.h">
+      <Filter>Sorts</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
